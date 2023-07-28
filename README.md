@@ -12,6 +12,10 @@ npm install @auth0/nextjs-auth0 dotenv
 http://localhost:3000/api/auth/callback
 # Logout
 http://localhost:3000/
+# Command for Generating Secret Key
+node -e "console.log(crypto.randomBytes(32).toString('hex'))"
+
+# Run
 npm run dev
 # or
 yarn dev
