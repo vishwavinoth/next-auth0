@@ -5,6 +5,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+# Installation
+npx create-next-app .
+npm install @auth0/nextjs-auth0 dotenv
+# Callback
+http://localhost:3000/api/auth/callback
+# Logout
+http://localhost:3000/
 npm run dev
 # or
 yarn dev
