@@ -25,7 +25,7 @@ export default function Profile() {
                             className="profile-image"
                         />
                     </div>
-                    <h2 className=' font-bold'>Welcome {user.nickname}!</h2>
+                    <h2 className=' font-bold'>Welcome {user.name}!</h2>
                     <p>{user.email}</p>
                     <a href="api/auth/logout">Logout</a>
                 </div>
